@@ -4,6 +4,7 @@ from google import genai
 from dotenv import load_dotenv
 from google.genai import types
 
+# remember to activate the virtual environment source .venv/bin/activate
 
 def main():
     if len(sys.argv) < 2:
